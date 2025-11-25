@@ -55,7 +55,7 @@ export function Certifications() {
                 }}
                 tabIndex={0}
                 role="button"
-                className="group flex h-full cursor-pointer flex-col gap-3 rounded-3xl border border-slate-200 bg-white/80 p-5 shadow-sm transition hover:border-primary-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:border-slate-800 dark:bg-slate-950/50"
+                className="group flex h-full cursor-pointer flex-col gap-3 rounded-3xl border border-slate-200 bg-white/85 p-5 shadow-soft transition hover:-translate-y-1 hover:border-primary-400 focus:outline-none focus-visible:ring-2 focus-visible:ring-primary-500 dark:border-slate-800 dark:bg-slate-950/60"
               >
                 <span className="inline-flex h-12 w-12 items-center justify-center rounded-2xl bg-primary-500/10 text-primary-500 dark:bg-primary-500/20">
                   <LuShieldCheck size={22} aria-hidden />
@@ -74,7 +74,9 @@ export function Certifications() {
                   </span>
                 </div>
                 <p className="text-base font-semibold text-slate-900 dark:text-slate-100">{cert.title}</p>
-                <span className="text-sm text-slate-500 dark:text-slate-400">{cert.issuer}  {cert.year}</span>
+                <span className="text-sm text-slate-500 dark:text-slate-400">
+                  {cert.issuer} · {cert.year}
+                </span>
               </motion.div>
             );
           })}
