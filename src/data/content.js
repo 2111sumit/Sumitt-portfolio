@@ -7,15 +7,9 @@ export const hero = {
   title: 'Full Stack Developer',
   subtitle: 'Ex Intern @ Ethnus',
   description:
-<<<<<<< HEAD
     'Building resilient, user-focused products across the MERN stack while blending data-driven insights from machine learning and clean API design.',
-  location: ' India',
-  availability: 'Open to internships & Jobs',
-=======
-    'Full-stack developer blending MERN, ML, and DevOps to ship reliable payment systems, AI-driven tools, and resilient cloud deployments.',
   location: 'India',
-  availability: 'Actively seeking full-time 2025-26 opportunities',
->>>>>>> a46bd36 (f)
+  availability: 'Open to internships & Jobs',
   highlights: [
     'Built a payment management system across React, Node.js, Express, and MongoDB',
     'Containerized and deployed services with Docker + Kubernetes and CI/CD on GitHub Actions',
@@ -183,7 +177,6 @@ export const certifications = [
   { title: 'Machine Learning with Python', issuer: 'IBM Skills Network', year: 'Jan - Jul 2024', image: 'ml-fixed.jpg' },
   { title: 'Blockchain Fundamentals', issuer: 'Coursera', year: '2025', image: 'blockchain-fixed.jpg' },
 ];
-<<<<<<< HEAD
 
 export const achievements = [
   'Solved 300+ LeetCode problems',
@@ -199,12 +192,3 @@ export const languages = [
 
 export const hobbies = ['Badminton', 'Listening to Music'];
 
-
-
-
-
-
-
-
-=======
->>>>>>> a46bd36 (f)
