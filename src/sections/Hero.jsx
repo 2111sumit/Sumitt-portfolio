@@ -125,9 +125,6 @@ export function Hero() {
               <p className="text-2xl font-semibold text-slate-900 dark:text-white">
                 Payment systems, AI features, and DevOps baked-in.
               </p>
-              <p className="text-sm text-slate-500 dark:text-slate-400">
-                Mirrors the PDF: timelines, outcomes, and tooling.
-              </p>
             </div>
             <div className="grid gap-3">
               {hero.stats?.map((stat) => (
